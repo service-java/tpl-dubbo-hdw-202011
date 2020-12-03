@@ -63,7 +63,7 @@ hdw-dubbo
    
 2. 执行创建数据库hdw_dubbo并执行sql脚本
     
-    + docs/sql/hdw_dubbo.sql
+    + _doc/sql/hdw_dubbo.sql
     
 3. 启动Zookeeper服务发现和注册中心
     +
@@ -113,27 +113,27 @@ hdw-dubbo
 #### 系统预览
 <table>
   <tr>
-     <td><img src="docs/images/1.png"/></td>
-     <td><img src="docs/images/2.png"/></td>
+     <td><img src="_doc/images/1.png"/></td>
+     <td><img src="_doc/images/2.png"/></td>
   </tr>
   <tr>
-     <td><img src="docs/images/3.png"/></td>
-     <td><img src="docs/images/4.png"/></td>
+     <td><img src="_doc/images/3.png"/></td>
+     <td><img src="_doc/images/4.png"/></td>
   </tr>
   <tr>
-     <td><img src="docs/images/5.png"/></td>
-     <td><img src="docs/images/6.png"/></td>
+     <td><img src="_doc/images/5.png"/></td>
+     <td><img src="_doc/images/6.png"/></td>
   </tr>
   <tr>
-    <td><img src="docs/images/7.png"/></td>
-    <td><img src="docs/images/8.png"/></td>
+    <td><img src="_doc/images/7.png"/></td>
+    <td><img src="_doc/images/8.png"/></td>
   </tr>
 </table>
 
 #### 技术交流
 加入QQ群和大家一起交流吹水：
 
-![qq](docs/images/QQ.png)
+![qq](_doc/images/QQ.png)
 
 #### 开发计划
 
