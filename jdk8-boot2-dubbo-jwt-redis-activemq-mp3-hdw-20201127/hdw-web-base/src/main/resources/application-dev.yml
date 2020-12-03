@@ -1,9 +1,9 @@
 spring:
   redis:
     database: 0
-    host: 127.0.0.1
+    host: example.com
     port: 6379
-    password:
+    password: 不想被人知道的密码
     timeout: 3600ms
     #    cluster:
     #      max-redirects: 3
@@ -17,7 +17,7 @@ spring:
       shutdown-timeout: 100ms
 
   activemq:
-    broker-url: tcp://localhost:61616
+    broker-url: tcp://example.com:61616
     user: admin
     password: admin
     in-memory: false
@@ -70,7 +70,7 @@ dubbo:
     payload: 52428800
   registry:
     id: hdw-registry
-    address: zookeeper://127.0.0.1:2181
+    address: zookeeper://example.com:2181
     file: /output/cache/${dubbo.application.id}.cache
     timeout: 5000
     session: 60000
@@ -86,13 +86,13 @@ dubbo:
 
 fdfs:
   file-upload:
-    server: http://127.0.0.1:9090
+    server: http://example.com:9090
   soTimeout: 1500
   connectTimeout: 600
   thumbImage:
     width: 150
     height: 150
-  trackerList[0]: 127.0.0.1:22122
+  trackerList[0]: example.com:22122
 
 
 hdw:
