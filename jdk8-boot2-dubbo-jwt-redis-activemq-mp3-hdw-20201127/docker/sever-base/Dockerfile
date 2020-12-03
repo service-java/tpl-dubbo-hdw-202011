@@ -1,5 +1,5 @@
 # hdw-server-base docker配置
-FROM frolvlad/alpine-oraclejdk8
+FROM fabric8/java-alpine-openjdk8-jdk
 
 MAINTAINER JacksonTu (tuminglong@126.com)
 

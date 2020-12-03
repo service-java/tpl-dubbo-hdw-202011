@@ -1,5 +1,5 @@
 # hdw-web-base docker配置
-FROM frolvlad/alpine-oraclejdk8
+FROM fabric8/java-alpine-openjdk8-jdk
 
 MAINTAINER JacksonTu (tuminglong@126.com)
 
@@ -10,7 +10,7 @@ ENV JAVA_OPTS="-Xms256m -Xmx256m -Xss1m -Xmn128m"
 
 RUN mkdir -p "$PROJECT_HOME" && mkdir -p "$OUTPUT_HOME" && mkdir -p "$TOMCAT_HOME"
 
-ADD hdw-web-base.jar /home/project/hdw-web-base.jar
+ADD hdw-web-base.jar $PROJECT_HOME/hdw-web-base.jar
 
 WORKDIR /home/project
 

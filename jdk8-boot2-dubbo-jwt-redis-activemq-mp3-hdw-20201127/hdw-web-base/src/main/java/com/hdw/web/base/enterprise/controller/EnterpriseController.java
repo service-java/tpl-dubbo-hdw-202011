@@ -1,6 +1,7 @@
 package com.hdw.web.base.enterprise.controller;
 
 
+import cn.hutool.core.convert.Convert;
 import com.google.common.collect.Lists;
 import com.hdw.api.base.enterprise.dto.EnterpriseDto;
 import com.hdw.api.base.enterprise.entity.Enterprise;
@@ -97,7 +98,8 @@ public class EnterpriseController extends UpLoadController {
             enterprise.setCreateTime(new Date());
             enterprise.setCreateUser(ShiroUtil.getUser().getLoginName());
             boolean b = enterpriseService.save(enterprise);
-            saveFile(enterprise.getId().toString());
+            // @fix id需要判空处理
+            saveFile(Convert.toStr(enterprise.getId()));
             if (b) {
                 return CommonResult.success("添加成功");
             } else {
