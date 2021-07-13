@@ -27,8 +27,8 @@ Gitee  | [https://gitee.com/tumao2/hdw-dubbo](https://gitee.com/tumao2/hdw-dubbo
 ``` lua
 hdw-dubbo
 ├── docker                             -- docker脚本文件
-    ├── server-base                        -- hdw-server-base脚本
-    ├── server-notice                      -- hdw-server-notice脚本
+    ├── server-base                        -- service-base-provider脚本
+    ├── server-notice                      -- service-notice-provider脚本
     ├── web-base                           -- hdw-base-web脚本
 
 ├── docs                               -- 文档及脚本
@@ -40,12 +40,12 @@ hdw-dubbo
     ├── hdw-common-core                        -- 系统核心包
     ├── hdw-common-starter-datasource          -- 系统数据库自动装配starter  
     ├── hdw-common-starter-redis               -- 系统redis自动装配starter
-├── hdw-api-base                      -- 基础服务接口
-├── hdw-server-base                   -- 基础服务提供者服务器[port = 8181]
-├── hdw-api-notice                    -- 系统消息服务接口
-├── hdw-server-notice                 -- 系统消息服务提供者服务器[port = 8182]
-├── hdw-web-base                      -- 服务消费者服务器[port = 8190]
-├── hdw-monitor                       -- SpringBootAdmin监控服务[port = 8180]
+├── module--apibase                      -- 基础服务接口
+├── service-base-provider                   -- 基础服务提供者服务器[port = 8181]
+├── module-notice-api                    -- 系统消息服务接口
+├── service-notice-provider                 -- 系统消息服务提供者服务器[port = 8182]
+├── service-base-consumer                      -- 服务消费者服务器[port = 8190]
+├── tracing-monitor                       -- SpringBootAdmin监控服务[port = 8180]
 ```
 
 
@@ -145,5 +145,5 @@ hdw-dubbo
   + 优化消息服务
   + 实现服务提供者之间相互调用
   + 实现消费者调用多个服务提供者
-  + hdw-web-base去掉数据库连接
+  + service-base-consumer去掉数据库连接
   + 优化前端代码

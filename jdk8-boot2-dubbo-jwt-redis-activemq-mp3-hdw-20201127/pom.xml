@@ -17,14 +17,13 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>hdw-common</module>
-        <module>hdw-api-base</module>
-        <module>hdw-server-base</module>
-        <module>hdw-api-notice</module>
-        <module>hdw-server-notice</module>
-        <module>hdw-web-base</module>
-        <module>hdw-monitor</module>
-
+        <module>common</module>
+        <module>module-base-api</module>
+        <module>module-notice-api</module>
+        <module>service-base-consumer</module>
+        <module>service-base-provider</module>
+        <module>service-notice-provider</module>
+        <module>tracing-monitor</module>
     </modules>
 
     <properties>
@@ -69,8 +68,8 @@
         <velocity.version>2.2</velocity.version>
 
         <hdw-common.version>3.1.0</hdw-common.version>
-        <hdw-api-base.version>3.1.0</hdw-api-base.version>
-        <hdw-api-notice.version>3.1.0</hdw-api-notice.version>
+        <module--apibase.version>3.1.0</module--apibase.version>
+        <module-notice-api.version>3.1.0</module-notice-api.version>
     </properties>
 
     <dependencyManagement>
