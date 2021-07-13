@@ -67,7 +67,7 @@
         <easy-captcha.version>1.6.2</easy-captcha.version>
         <velocity.version>2.2</velocity.version>
 
-        <hdw-common.version>3.1.0</hdw-common.version>
+        <common.version>3.1.0</common.version>
         <module--apibase.version>3.1.0</module--apibase.version>
         <module-notice-api.version>3.1.0</module-notice-api.version>
     </properties>

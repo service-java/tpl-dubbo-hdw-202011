@@ -36,10 +36,10 @@ hdw-dubbo
     ├── img                            -- 系统图片截图  
     ├── sql                            -- sql文件  
      
-├── hdw-common                        -- 通用模块
-    ├── hdw-common-core                        -- 系统核心包
-    ├── hdw-common-starter-datasource          -- 系统数据库自动装配starter  
-    ├── hdw-common-starter-redis               -- 系统redis自动装配starter
+├── common                        -- 通用模块
+    ├── common-core                        -- 系统核心包
+    ├── common-starter-datasource          -- 系统数据库自动装配starter  
+    ├── common-starter-redis               -- 系统redis自动装配starter
 ├── module--apibase                      -- 基础服务接口
 ├── service-base-provider                   -- 基础服务提供者服务器[port = 8181]
 ├── module-notice-api                    -- 系统消息服务接口

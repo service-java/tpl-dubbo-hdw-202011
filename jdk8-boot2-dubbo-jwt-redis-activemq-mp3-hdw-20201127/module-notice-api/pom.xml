@@ -22,8 +22,8 @@
     <dependencies>
         <dependency>
             <groupId>com.hdw</groupId>
-            <artifactId>hdw-common-core</artifactId>
-            <version>${hdw-common.version}</version>
+            <artifactId>common-core</artifactId>
+            <version>${common.version}</version>
         </dependency>
     </dependencies>
 </project>

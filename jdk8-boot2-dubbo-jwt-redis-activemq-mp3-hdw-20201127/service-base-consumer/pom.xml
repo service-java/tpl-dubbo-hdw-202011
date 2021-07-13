@@ -37,8 +37,8 @@
 
         <dependency>
             <groupId>com.hdw</groupId>
-            <artifactId>hdw-common-starter-redis</artifactId>
-            <version>${hdw-common.version}</version>
+            <artifactId>common-starter-redis</artifactId>
+            <version>${common.version}</version>
         </dependency>
 
         <!--JWT begin-->
