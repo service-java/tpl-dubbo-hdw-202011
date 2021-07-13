@@ -68,7 +68,7 @@
         <velocity.version>2.2</velocity.version>
 
         <common.version>3.1.0</common.version>
-        <module--apibase.version>3.1.0</module--apibase.version>
+        <module-base-api.version>3.1.0</module-base-api.version>
         <module-notice-api.version>3.1.0</module-notice-api.version>
     </properties>
 

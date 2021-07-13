@@ -25,8 +25,8 @@
     <dependencies>
         <dependency>
             <groupId>com.hdw</groupId>
-            <artifactId>module--apibase</artifactId>
-            <version>${module--apibase.version}</version>
+            <artifactId>module-base-api</artifactId>
+            <version>${module-base-api.version}</version>
         </dependency>
         <dependency>
             <groupId>com.hdw</groupId>

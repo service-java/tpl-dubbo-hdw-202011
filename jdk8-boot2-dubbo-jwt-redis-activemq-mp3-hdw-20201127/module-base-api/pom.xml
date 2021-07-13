@@ -11,11 +11,11 @@
     </parent>
 
     <groupId>com.hdw</groupId>
-    <artifactId>module--apibase</artifactId>
+    <artifactId>module-base-api</artifactId>
     <version>3.1.0</version>
     <packaging>jar</packaging>
 
-    <name>module--apibase</name>
+    <name>module-base-api</name>
 
 
     <dependencies>
